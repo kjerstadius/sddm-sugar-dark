@@ -292,6 +292,7 @@ Column {
 
             contentItem: Text {
                 id: indicatorLabel
+                font.family: root.font.family
                 text: config.TranslateShowPassword || "Show Password"
                 anchors.verticalCenter: indicator.verticalCenter
                 anchors.verticalCenterOffset: 0

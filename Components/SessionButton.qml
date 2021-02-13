@@ -62,6 +62,7 @@ Item {
 
         contentItem: Text {
             id: displayedItem
+            font.family: root.font.family
             text: (config.TranslateSession || (textConstantSession + ":")) + " " + selectSession.currentText
             color: root.palette.text
             verticalAlignment: Text.AlignVCenter
